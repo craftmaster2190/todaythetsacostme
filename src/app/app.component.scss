@@ -1,0 +1,27 @@
+header {
+  font-size: 3em;
+  line-height: 3em;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+
+  .form-row {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+
+    width: 100%;
+    max-width: 680px;
+
+    mat-form-field {
+      flex: 1 1 0;
+    }
+  }
+}
+
